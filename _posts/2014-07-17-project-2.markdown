@@ -3,7 +3,7 @@ layout: default
 title: 영양제 쇼핑몰
 modal-id: 2
 date: 2014-07-17
-img: pj1.png
+img: pj1.PNG
 alt: image-alt
 project-date: 2022.10.17 ~ 2022.11.28
 client: React,SpringBoot,Mysql

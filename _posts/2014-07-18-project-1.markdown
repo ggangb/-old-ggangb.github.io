@@ -3,7 +3,7 @@ layout: default
 title: 웨이브 클론코딩
 modal-id: 1
 date: 2014-07-18
-img: pj2.png
+img: pj2.PNG
 alt: image-alt
 project-date: 2022.08.15 ~ 2022.08.30
 client: SpringBoot,Thymeleaf,Mysql
