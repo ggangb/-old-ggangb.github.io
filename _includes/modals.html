@@ -1,0 +1,59 @@
+<!-- Portfolio Modals -->
+{% for post in site.posts %}
+<div class="portfolio-modal modal fade" id="portfolioModal-{{ post.modal-id }}" tabindex="-1" role="dialog"
+  aria-hidden="true">
+  <div class="modal-content">
+    <div class="close-modal" data-dismiss="modal">
+      <div class="lr">
+        <div class="rl">
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2">
+          <div class="modal-body">
+            <h2>{{ post.title }}</h2>
+            <hr class="star-primary">
+            <img src="img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
+            {% if post.description %}
+            <p>{{ post.description }}</p>
+            {% endif %}
+            <ul class="list-inline item-details">
+              {% if post.client %}
+              <li>개발환경:
+                <strong>{{ post.client }}</strong>
+              </li>
+              {% endif %}
+              {% if post.project-date %}
+              <li>프로젝트기간:
+                <strong>{{ post.project-date }}</strong>
+              </li>
+              {% endif %}
+              {% if post.category %}
+              <li>링크:
+               <a href="{{ post.category }}" target='_blank'> <strong>{{ post.category }}</strong> </a><br/>
+              </li>
+              {% endif %}
+              {% if post.category1 %}
+              <li>
+               깃헙:
+               <a href="{{ post.category1 }}" target='_blank'> <strong>{{ post.category1 }}</strong> </a><br/>
+              </li>
+              {% endif %}
+              {% if post.category2 %}
+              <li>
+               깃헙:
+               <a href="{{ post.category2 }}" target='_blank'> <strong>{{ post.category2 }}</strong> </a>
+              </li>
+              {% endif %}
+            </ul>
+            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i>
+              Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{% endfor %}

@@ -1,0 +1,14 @@
+---
+layout: default
+title: 영양제 쇼핑몰
+modal-id: 2
+date: 2014-07-17
+img: pj1.png
+alt: image-alt
+project-date: 2022.10.17 ~ 2022.11.28
+client: React,SpringBoot,Mysql
+category: http://yeongyangshop.s3-website.ap-northeast-2.amazonaws.com/
+category1: https://github.com/ggangb/SpringBoot
+category2: https://github.com/ggangb/React
+description: 소개&nbsp;:&nbsp;설문조사를 통해 나에게 맞는 영양제를 찾고 구매할수 있는 쇼핑몰<br/>목적&nbsp;:&nbsp;SpringBoot 과 React 사용 경험 및 숙련도 향상을 위한 팀  프로젝트<br/><br/>인원구성&nbsp;:&nbsp;5명<br/>
+---
