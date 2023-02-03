@@ -7,7 +7,7 @@ img: pj2.PNG
 alt: image-alt
 project-date: 2022.08.15 ~ 2022.08.30
 client: SpringBoot,Thymeleaf,Mysql
-category: http://wavvy.duckdns.org/
+category: http://wavvy.kro.kr/
 category1: https://github.com/ggangb/wavvy
 description: 소개&nbsp;:&nbsp;웨이브처럼 영상시청 할 수 있는 웨이브 클론코딩 스트리밍 사이트<br/>목적&nbsp;:&nbsp;SrpingBoot,Thymeleaf 사용 경험 및 숙련도 향상을 위한 팀 프로젝트<br/><br/>인원구성&nbsp;:&nbsp;2명<br/>
 ---
