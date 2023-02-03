@@ -29,23 +29,27 @@
               <li>프로젝트기간:
                 <strong>{{ post.project-date }}</strong>
               </li>
+              <br/>
               {% endif %}
               {% if post.category %}
               <li>링크:
                <a href="{{ post.category }}" target='_blank'> <strong>{{ post.category }}</strong> </a><br/>
               </li>
+              <br/>
               {% endif %}
               {% if post.category1 %}
               <li>
                깃헙:
                <a href="{{ post.category1 }}" target='_blank'> <strong>{{ post.category1 }}</strong> </a><br/>
               </li>
+              <br/>
               {% endif %}
               {% if post.category2 %}
               <li>
                깃헙:
                <a href="{{ post.category2 }}" target='_blank'> <strong>{{ post.category2 }}</strong> </a>
               </li>
+              <br/>
               {% endif %}
             </ul>
             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i>
